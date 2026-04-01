@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Little Lemon</h1>
+        <p>Chicago's finest Mediterranean restaurant</p>
+    </header>
+    <main>
+        <h2>Welcome to Little Lemon</h2>
+        <p>
+            We are a family-owned Mediterranean restaurant focused on traditional
+            recipes served with a modern twist. Our menu changes with the seasons
+            to ensure only the freshest ingredients are used.
+        </p>
+        <h3>API Endpoints</h3>
+        <ul>
+            <li><a href="/restaurant/api/menu/">Menu Items</a></li>
+            <li><a href="/restaurant/booking/tables/">Table Bookings</a> (requires authentication)</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Little Lemon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
